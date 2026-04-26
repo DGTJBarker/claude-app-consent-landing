@@ -1,7 +1,7 @@
 # claude-app-consent-landing
 
 Static landing page served via GitHub Pages. Target of the Web RedirectUri on
-the DGT Claude Management multi-tenant Entra apps (Standard + Elevated).
+the DGT Management multi-tenant Entra apps (Standard + Elevated).
 
 When a client's Global Administrator clicks an admin-consent URL like
 
@@ -26,8 +26,8 @@ Used as the Web RedirectUri on:
 
 | App | AppId |
 |---|---|
-| DGT Claude Management - Standard | `1fe456e7-06a7-43db-8ad7-5273817e69f7` |
-| DGT Claude Management - Elevated | `691169ef-fefd-40b8-add0-aee72d6dcf73` |
+| DGT Management - Standard | `1fe456e7-06a7-43db-8ad7-5273817e69f7` |
+| DGT Management - Elevated | `691169ef-fefd-40b8-add0-aee72d6dcf73` |
 
 ## Deploying changes
 
