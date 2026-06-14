@@ -4,9 +4,10 @@
 > redirect target** of any DGT app. The 2026-04-23 "DGT Claude Management → DGT Management"
 > rebrand moved both apps' Web RedirectUri to **`https://delphigt.com/consent`** (live source:
 > [`entra-claude-app/brand/web/consent/`](https://github.com/DGTJBarker/entra-claude-app)).
-> The page below still serves HTTP 200, but nothing points at it. Editing `index.html` here has
-> **no effect** on the live consent flow — edit `entra-claude-app/brand/web/consent/index.html`
-> instead. Disposition of this repo (keep / archive / disable Pages) is an open operator decision.
+> **Decision (S116 2026-06-14):** this repo has been **ARCHIVED** (read-only) and its GitHub Pages
+> site **DISABLED** — `dgtjbarker.github.io/claude-app-consent-landing/` no longer serves. The live
+> consent landing is `https://delphigt.com/consent` (source: `entra-claude-app/brand/web/consent/`).
+> Editing `index.html` here has no effect on anything; the content below is retained for history.
 > Note: there is no `consent.delphigt.com` subdomain — the live landing is the path
 > `https://delphigt.com/consent`.
 
